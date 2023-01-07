@@ -6,7 +6,14 @@
 - `cargo doc` builds HTML documentation for every dependency in the current project.
 - Can find dependencies in `Cargo.toml`.
 
-#### Rust principles
+### Rust principles
 - First priority is safety.
 - Data within Rust is immutable by default.
 - Compile-time checks are strongly preferred. Safety should be a "zero-cost abstraction".
+
+### Rust's big features
+- Performance
+- Concurrency
+- Memory efficiency
+
+
