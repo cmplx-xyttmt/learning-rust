@@ -39,3 +39,9 @@ Rust types for representing scalar (single numbers)
 #### Comparing numbers
 - Numeric types in Rust support a large suite of comparisons provided by a Rust feature called `traits`.
 - Rust's type safety requirements prevent comparisons between types. (Need to use an `as` operator to cast one of the operands to the other's type).
+
+
+#### Adding third-party dependencies
+- Can add manually to `Cargo.toml` or use `cargo add`
+- To use `cargo add`, install `cargo-edit`: `cargo install cargo-edit`
+- e.g to add the `num` dependency: `cargo add num`.
