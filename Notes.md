@@ -45,3 +45,10 @@ Rust types for representing scalar (single numbers)
 - Can add manually to `Cargo.toml` or use `cargo add`
 - To use `cargo add`, install `cargo-edit`: `cargo install cargo-edit`
 - e.g to add the `num` dependency: `cargo add num`.
+
+#### Traits
+A `trait` is a Rust language feature that's analogous to an interface, protocol or contract.
+
+A `trait` is similar to an `abstract base class` in OOP languages or `type classes` in Haskell.
+
+Traits enable types to advertise that they are using common behavior.
